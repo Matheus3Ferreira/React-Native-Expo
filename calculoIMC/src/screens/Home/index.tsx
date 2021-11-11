@@ -20,6 +20,7 @@ export default function Home() {
                 <StatusBar
                     style="light"
                     translucent={true}
+
                 />
 
                 <View style={styles.header}>

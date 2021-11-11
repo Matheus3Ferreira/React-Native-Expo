@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
 import { theme } from '../../global/theme';
+import { StatusBar } from 'react-native';
 
 export const styles = StyleSheet.create({
     container: {
@@ -10,7 +11,7 @@ export const styles = StyleSheet.create({
         paddingHorizontal: 15,
     },
     header: {
-        marginTop: 20,
+        marginTop: StatusBar.currentHeight || 0,
         paddingVertical: 20,
         borderBottomWidth: 1,
         alignItems: 'center',
