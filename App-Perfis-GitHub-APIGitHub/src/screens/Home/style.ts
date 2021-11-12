@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-import { RobotoMono_500Medium } from '@expo-google-fonts/roboto-mono';
 
 export const styles = StyleSheet.create({
     container: {
@@ -16,18 +15,28 @@ export const styles = StyleSheet.create({
     imageDev: {
         height: 200,
         width: 200,
+        marginBottom: 15,
+    },
+    containerData: {
+
     },
     row: {
         flexDirection: 'row',
         marginVertical: 5,
+        width: '100%'
     },
     input: {
-        width: '70%',
-        height: 20,
+        width: '100%',
+        height: 35,
+        backgroundColor: '#DDDDDD',
+        borderRadius: 10,
+        paddingLeft: 5,
     },
     btn: {
-        width: 20,
-        height: 20,
+        width: 35,
+        height: 35,
+        backgroundColor: '#0F0',
+        marginLeft: 15,
     },
 
 });
